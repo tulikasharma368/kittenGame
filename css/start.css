@@ -1,0 +1,51 @@
+.startmaindiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.startinnerdiv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.introimg {
+  width: 220px;
+  height: 80px;
+}
+
+.logoimg {
+  width: 100%;
+  height: 90%;
+}
+
+.persents,
+.select {
+  text-transform: uppercase;
+  color: cornflowerblue;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.soundoff,
+.sound {
+  border-color: cornflowerblue;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 130px;
+  height: 70px;
+  margin-right: 20px;
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.soundoff:hover,
+.sound:hover {
+  background-color: cornflowerblue;
+  color: #fff;
+}
