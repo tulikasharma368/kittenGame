@@ -1,0 +1,128 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.backgrndimg {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.imglogo {
+  position: relative;
+  z-index: 5;
+  left: 46vw;
+  height: 180px;
+  width: 200px;
+}
+
+.yarn {
+  position: relative;
+  z-index: 10;
+  height: 35px;
+  width: 35px;
+  left: 51.5vw;
+  top: -40px;
+  animation: rotation 1s infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.carpet {
+  position: relative;
+  z-index: 10;
+  height: 75vh;
+  left: 35vw;
+  top: -30px;
+  transform: rotateX(60deg);
+}
+
+.sofadiv {
+  position: relative;
+  z-index: 15;
+  height: 66vh;
+  top: -490px;
+  left: 46vw;
+}
+
+.sofa {
+  height: 200px;
+  width: 200px;
+}
+
+.kittydiv {
+  position: relative;
+  z-index: 20;
+  height: 66vh;
+  top: -920px;
+  left: 49.5vw;
+}
+
+.kitty {
+  height: 100px;
+  width: 100px;
+  transform: rotateZ(5deg);
+  animation: move 2s infinite;
+}
+
+@keyframes move {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+
+.pilloyarndiv {
+  position: relative;
+  z-index: 25;
+  height: 66vh;
+  top: -1180px;
+  left: 41.5vw;
+  display: flex;
+  width: 22.5%;
+  justify-content: space-between;
+}
+
+.pillow,
+.yarn1 {
+  height: 40px;
+  width: 40px;
+}
+
+.secondpagetextdiv {
+  position: relative;
+  z-index: 30;
+  top: -1620px;
+  left: 43.5vw;
+  font-weight: bold;
+}
+
+.startbuttndiv {
+  position: relative;
+  z-index: 30;
+  top: -1600px;
+  left: 49vw;
+}
+
+.startbutton {
+  background-color: #cc9900;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 50px;
+  width: 120px;
+  border: 2px solid #ffdb58;
+  text-transform: uppercase;
+}
