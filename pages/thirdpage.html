@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/thirdpage.css">
+    <title>Kitten PlayGame</title>
+</head>
+<body>
+    <div class="game">
+        <audio  autoplay loop>
+            <source src="../assets/peritune-spook4.mp3">
+        </audio>
+        <div>
+            <img class="logo_img" src="../assets/logo.png">
+        </div>
+        <div class="rating">
+            <img class="trophy" src="../assets/trophy.svg">
+            <img class="star" src="../assets/blackstar.png">
+            <img class="star" src="../assets/blackstar.png">
+            <img class="star" src="../assets/blackstar.png">
+            <img class="star" src="../assets/blackstar.png">
+            <img class="star" src="../assets/blackstar.png">
+            <input 
+                class="rating-1" 
+                readonly
+                max="5" 
+                type="text" 
+                value="0">
+        </div>
+        <div class="volume">
+            <img class="volume_img" src="../assets/volume.svg">
+        </div>
+        <div class="logout">
+            <img class="logout_img" src="../assets/logout.svg">
+        </div>
+        <div class="kittens">
+            <div class="carpet-kittens">
+                <img class="carpet_img1" src="../assets/carpet.svg" alt="carpet">
+                <img class="cat1" src="../assets/kitten.svg">
+                <img class="cat2" src="../assets/kitten.svg">
+                <img class="cat3" src="../assets/kitten.svg">
+                <img class="cat4" src="../assets/kitten.svg">
+            </div>
+            <div class="text-kitty">
+                <div class="helper_text">
+                    <div>Four Kittens are Playing.</div>
+                    <div>Three more kittens join in.</div>
+                    <div>How many kittens are there altogether now?</div>
+                </div>
+                <div class="black-kitty">
+                    <img class="blackcat1" src="../assets/kitten-1.svg">
+                    <img class="blackcat2" src="../assets/kitten-1.svg">
+                    <img class="blackcat3" src="../assets/kitten-1.svg">
+                </div>
+            </div>
+            <div class="star_div" id="outputtext"></div>
+        </div>
+        <form class="result" name="val">
+            <div class="btn_input">
+                <span class="btn" onclick="document.val.txt.value +='0'">0</span>
+                <span class="btn" onclick="document.val.txt.value +='1'">1</span>
+                <span class="btn" onclick="document.val.txt.value +='2'">2</span>
+                <span class="btn" onclick="document.val.txt.value +='3'">3</span>
+                <span class="btn" onclick="document.val.txt.value +='4'">4</span>
+                <span class="btn" onclick="document.val.txt.value +='5'">5</span>
+                <span class="btn" onclick="document.val.txt.value +='6'">6</span>
+                <span class="btn" onclick="document.val.txt.value +='7'">7</span>
+                <span class="btn" onclick="document.val.txt.value +='8'">8</span>
+                <span class="btn" onclick="document.val.txt.value +='9'">9</span>
+            </div>
+            <input class="answer1" id="userInput" type="text" name="txt"  placeholder="?" >
+            <button class="enter" id="btn">Enter</button>
+
+        </form>
+    </div>
+    <script src="../js/thirdpage.js"></script>
+</body>
+</html>
